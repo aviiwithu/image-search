@@ -13,7 +13,7 @@ function UnsplashApp() {
   const [totalPage, setTotalPage] = useState('');
 
     useEffect(()=>{
-        fetchimage();
+         fetchimage(); // eslint-disable-next-line
     },[page,query]);
 
     const fetchimage = async () =>{
